@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://baikaishui.cloud/</loc>
     <lastmod>2024-06-23T15:00:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://baikaishui.cloud/posts/</loc>
     <lastmod>2024-06-23T15:00:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu/</loc>
+    <loc>https://baikaishui.cloud/posts/ubuntu/</loc>
     <lastmod>2024-06-23T15:00:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E6%9D%82%E8%B0%88ai/</loc>
+    <loc>https://baikaishui.cloud/posts/%E6%9D%82%E8%B0%88ai/</loc>
     <lastmod>2024-06-23T14:22:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/xxx/</loc>
+    <loc>https://baikaishui.cloud/posts/xxx/</loc>
     <lastmod>2024-06-23T13:14:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives.fr/</loc>
+    <loc>https://baikaishui.cloud/archives.fr/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://baikaishui.cloud/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://baikaishui.cloud/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://baikaishui.cloud/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/search.fr/</loc>
+    <loc>https://baikaishui.cloud/search.fr/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://baikaishui.cloud/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://baikaishui.cloud/tags/</loc>
   </url>
 </urlset>
