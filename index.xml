@@ -9,11 +9,23 @@
       <url>https://baikaishui.cloud/images/papermod-cover.png</url>
       <link>https://baikaishui.cloud/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <copyright>Bks Corp 2024</copyright>
-    <lastBuildDate>Mon, 24 Jun 2024 11:43:38 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jul 2024 19:42:29 +0800</lastBuildDate>
     <atom:link href="https://baikaishui.cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>经验:视窗10及更新操作系统下配置C语言编译环境</title>
+      <link>https://baikaishui.cloud/posts/%E7%BB%8F%E9%AA%8C%E8%A7%86%E7%AA%9710%E5%8F%8A%E6%9B%B4%E6%96%B0%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%8B%E9%85%8D%E7%BD%AEc%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Sat, 13 Jul 2024 19:42:29 +0800</pubDate>
+      <guid>https://baikaishui.cloud/posts/%E7%BB%8F%E9%AA%8C%E8%A7%86%E7%AA%9710%E5%8F%8A%E6%9B%B4%E6%96%B0%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B8%8B%E9%85%8D%E7%BD%AEc%E8%AF%AD%E8%A8%80%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/</guid>
+      <description>1.下载 MinGW-w64 并添加到环境变量
+2.使用 VSCode 中的 C/C++ 插件 1.8.4 版本编译 .c 文件
+3.插件自动生成 tasks.json 和 launch.json 文件
+4.对 tasks.json 和 launch.json 文件做如下修改:
+&amp;#34;${fileDirname}\\${fileBasenameNoExtension}.exe&amp;#34;, --&amp;gt; &amp;#34;${fileDirname}\\${fileBasenameNoExtension}.exe&amp;#34;, &amp;#34;-fexec-charset=GBK&amp;#34; &amp;#34;externalConsole&amp;#34;: false, --&amp;gt; &amp;#34;externalConsole&amp;#34;: true, 5.更新您的 C/C++ 插件到最新版本
+6.重启 VSCode</description>
+    </item>
     <item>
       <title>经验:如何配置你的WindowsPC</title>
       <link>https://baikaishui.cloud/posts/%E7%BB%8F%E9%AA%8C%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E4%BD%A0%E7%9A%84windowspc/</link>
