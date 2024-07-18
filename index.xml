@@ -9,7 +9,7 @@
       <url>https://baikaishui.cloud/images/papermod-cover.png</url>
       <link>https://baikaishui.cloud/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <copyright>Bks Corp 2024</copyright>
     <lastBuildDate>Sat, 13 Jul 2024 19:42:29 +0800</lastBuildDate>
@@ -41,16 +41,16 @@
       <link>https://baikaishui.cloud/posts/ubuntu/</link>
       <pubDate>Sun, 23 Jun 2024 15:00:49 +0800</pubDate>
       <guid>https://baikaishui.cloud/posts/ubuntu/</guid>
-      <description>软件更新 使用Software Updater更新
-Ubuntu的Software Updater（软件更新器）是一个图形化的工具，用于管理系统中的软件更新。它提供了一种简单方便的方式来检查可用的软件更新并安装它们。
-使用sudo apt update &amp;amp;&amp;amp; sudo apt upgrade命令更新
-sudo apt update &amp;amp;&amp;amp; sudo apt upgrade命令的作用是先更新软件包列表，然后升级系统上已安装的软件包。
-区别：
-使用Software Updater和使用sudo apt update &amp;amp;&amp;amp; sudo apt upgrade命令更新系统存在一些区别：
-用户界面 vs 命令行：Software Updater提供了一个图形化的用户界面，适合那些更喜欢使用可视化工具的用户。它显示可用的更新，并允许用户选择要安装的更新。而sudo apt update &amp;amp;&amp;amp; sudo apt upgrade命令是在命令行中执行的，适合那些喜欢使用命令行界面的用户。 更新范围：Software Updater关注整个系统的更新，包括操作系统、内核、系统组件和已安装的软件包。它会检查并提供相关的更新选项。而sudo apt update &amp;amp;&amp;amp; sudo apt upgrade命令主要用于更新已安装的软件包。 灵活性和控制：使用命令行更新命令可以提供更多的灵活性和控制。你可以根据需要执行不同的apt命令，如安装特定软件包、删除软件包等。而Software Updater主要提供了一个简单的界面，用于更新系统和软件包，但对于更高级的软件包管理操作，可能需要使用命令行。 自动化：Software Updater可以设置为自动检查和安装更新，使得系统保持最新状态更加方便。而使用命令行更新需要手动执行相应的命令。 综上所述，Software Updater提供了一个简单易用的图形化界面，适合普通用户快速更新系统和软件包。而使用sudo apt update &amp;amp;&amp;amp; sudo apt upgrade命令则提供更多的灵活性和控制，适合那些习惯于使用命令行的用户或需要进行更高级的软件包管理操作的用户。
-安装中文输入法 https://www.bilibili.com/video/BV1tY411q7f1/
-允许root用户远程登录 修改root用户密码 打开终端，输入指令：
-$ sudo passwd root 安装SSH服务 检查ubuntu虚拟机是否安装ssh服务 $ ssh localhost 若出现右边提示证明没有安装ssh：ssh: connect to hostlocalhost port 22: Connection refused</description>
+      <description>1 软件更新 使用 Software Updater 更新 软件更新器是一个图形化的工具, 用于管理系统中的软件更新.
+使用命令更新
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade 命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.
+2 安装中文输入法 https://www.bilibili.com/video/BV1tY411q7f1/
+3 允许root用户远程登录 3.1修改root用户密码 打开终端, 输入指令:
+sudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-server 常用命令 sudo /etc/init.d/ssh start sudo /etc/init.d/ssh restart 安装完毕后查看状态 sudo service ssh status 若出现: Active: active (running) , 表示安装成功, 服务已启动.
+允许root用户远程登录 sudo vim /etc/ssh/sshd_config 将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes
+修改之前:
+修改之后:
+然后重启ssh服务: sudo /etc/init.d/ssh restart 3.3安装 vsftp 服务器 sudo apt-get install vsftpd sudo vim /etc/vsftpd.</description>
     </item>
     <item>
       <title>杂谈:AI</title>
