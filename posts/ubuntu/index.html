@@ -7,16 +7,54 @@
 <meta name="robots" content="index, follow">
 <title>Ubuntu | Bks Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="1 软件更新 使用 Software Updater 更新 软件更新器是一个图形化的工具, 用于管理系统中的软件更新.
+<meta name="description" content="1 软件更新
+
+
+使用 Software Updater 更新
+软件更新器是一个图形化的工具, 用于管理系统中的软件更新.
+
+
 使用命令更新
-sudo apt update &amp;&amp; sudo apt upgrade 命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.
-2 安装中文输入法 https://www.bilibili.com/video/BV1tY411q7f1/
-3 允许root用户远程登录 3.1修改root用户密码 打开终端, 输入指令:
-sudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-server 常用命令 sudo /etc/init.d/ssh start sudo /etc/init.d/ssh restart 安装完毕后查看状态 sudo service ssh status 若出现: Active: active (running) , 表示安装成功, 服务已启动.
-允许root用户远程登录 sudo vim /etc/ssh/sshd_config 将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes
+
+
+sudo apt update &amp;&amp; sudo apt upgrade
+命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.
+2 安装中文输入法
+https://www.bilibili.com/video/BV1tY411q7f1/
+3 允许root用户远程登录
+3.1修改root用户密码
+打开终端, 输入指令:
+sudo passwd root
+
+
+3.2安装SSH服务
+
+安装ssh
+
+sudo apt-get install openssh-server
+
+常用命令
+
+sudo /etc/init.d/ssh start
+sudo /etc/init.d/ssh restart
+
+安装完毕后查看状态
+
+sudo service ssh status
+若出现: Active: active (running) , 表示安装成功, 服务已启动.
+
+
+
+允许root用户远程登录
+
+sudo vim /etc/ssh/sshd_config
+将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes
 修改之前:
+
+
 修改之后:
-然后重启ssh服务: sudo /etc/init.d/ssh restart 3.3安装 vsftp 服务器 sudo apt-get install vsftpd sudo vim /etc/vsftpd.">
+
+">
 <meta name="author" content="Bks">
 <link rel="canonical" href="https://baikaishui.cloud/posts/ubuntu/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.31f4132a2294f1e65473d35247f033434cb9dd6a137282653a99e81b00af7db8.css" integrity="sha256-MfQTKiKU8eZUc9NSR/AzQ0y53WoTcoJlOpnoGwCvfbg=" rel="preload stylesheet" as="style">
@@ -64,20 +102,55 @@ sudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-serve
         }
 
     </style>
-</noscript>
-  
+</noscript><meta property="og:title" content="Ubuntu" />
+<meta property="og:description" content="1 软件更新
 
-<meta property="og:title" content="Ubuntu" />
-<meta property="og:description" content="1 软件更新 使用 Software Updater 更新 软件更新器是一个图形化的工具, 用于管理系统中的软件更新.
+
+使用 Software Updater 更新
+软件更新器是一个图形化的工具, 用于管理系统中的软件更新.
+
+
 使用命令更新
-sudo apt update &amp;&amp; sudo apt upgrade 命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.
-2 安装中文输入法 https://www.bilibili.com/video/BV1tY411q7f1/
-3 允许root用户远程登录 3.1修改root用户密码 打开终端, 输入指令:
-sudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-server 常用命令 sudo /etc/init.d/ssh start sudo /etc/init.d/ssh restart 安装完毕后查看状态 sudo service ssh status 若出现: Active: active (running) , 表示安装成功, 服务已启动.
-允许root用户远程登录 sudo vim /etc/ssh/sshd_config 将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes
+
+
+sudo apt update &amp;&amp; sudo apt upgrade
+命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.
+2 安装中文输入法
+https://www.bilibili.com/video/BV1tY411q7f1/
+3 允许root用户远程登录
+3.1修改root用户密码
+打开终端, 输入指令:
+sudo passwd root
+
+
+3.2安装SSH服务
+
+安装ssh
+
+sudo apt-get install openssh-server
+
+常用命令
+
+sudo /etc/init.d/ssh start
+sudo /etc/init.d/ssh restart
+
+安装完毕后查看状态
+
+sudo service ssh status
+若出现: Active: active (running) , 表示安装成功, 服务已启动.
+
+
+
+允许root用户远程登录
+
+sudo vim /etc/ssh/sshd_config
+将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes
 修改之前:
+
+
 修改之后:
-然后重启ssh服务: sudo /etc/init.d/ssh restart 3.3安装 vsftp 服务器 sudo apt-get install vsftpd sudo vim /etc/vsftpd." />
+
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://baikaishui.cloud/posts/ubuntu/" />
 <meta property="og:image" content="https://baikaishui.cloud/images/papermod-cover.png" />
@@ -88,16 +161,54 @@ sudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-serve
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://baikaishui.cloud/images/papermod-cover.png" />
 <meta name="twitter:title" content="Ubuntu"/>
-<meta name="twitter:description" content="1 软件更新 使用 Software Updater 更新 软件更新器是一个图形化的工具, 用于管理系统中的软件更新.
+<meta name="twitter:description" content="1 软件更新
+
+
+使用 Software Updater 更新
+软件更新器是一个图形化的工具, 用于管理系统中的软件更新.
+
+
 使用命令更新
-sudo apt update &amp;&amp; sudo apt upgrade 命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.
-2 安装中文输入法 https://www.bilibili.com/video/BV1tY411q7f1/
-3 允许root用户远程登录 3.1修改root用户密码 打开终端, 输入指令:
-sudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-server 常用命令 sudo /etc/init.d/ssh start sudo /etc/init.d/ssh restart 安装完毕后查看状态 sudo service ssh status 若出现: Active: active (running) , 表示安装成功, 服务已启动.
-允许root用户远程登录 sudo vim /etc/ssh/sshd_config 将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes
+
+
+sudo apt update &amp;&amp; sudo apt upgrade
+命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.
+2 安装中文输入法
+https://www.bilibili.com/video/BV1tY411q7f1/
+3 允许root用户远程登录
+3.1修改root用户密码
+打开终端, 输入指令:
+sudo passwd root
+
+
+3.2安装SSH服务
+
+安装ssh
+
+sudo apt-get install openssh-server
+
+常用命令
+
+sudo /etc/init.d/ssh start
+sudo /etc/init.d/ssh restart
+
+安装完毕后查看状态
+
+sudo service ssh status
+若出现: Active: active (running) , 表示安装成功, 服务已启动.
+
+
+
+允许root用户远程登录
+
+sudo vim /etc/ssh/sshd_config
+将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes
 修改之前:
+
+
 修改之后:
-然后重启ssh服务: sudo /etc/init.d/ssh restart 3.3安装 vsftp 服务器 sudo apt-get install vsftpd sudo vim /etc/vsftpd."/>
+
+"/>
 
 
 <script type="application/ld+json">
@@ -126,7 +237,7 @@ sudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-serve
   "@type": "BlogPosting",
   "headline": "Ubuntu",
   "name": "Ubuntu",
-  "description": "1 软件更新 使用 Software Updater 更新 软件更新器是一个图形化的工具, 用于管理系统中的软件更新.\n使用命令更新\nsudo apt update \u0026amp;\u0026amp; sudo apt upgrade 命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.\n2 安装中文输入法 https://www.bilibili.com/video/BV1tY411q7f1/\n3 允许root用户远程登录 3.1修改root用户密码 打开终端, 输入指令:\nsudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-server 常用命令 sudo /etc/init.d/ssh start sudo /etc/init.d/ssh restart 安装完毕后查看状态 sudo service ssh status 若出现: Active: active (running) , 表示安装成功, 服务已启动.\n允许root用户远程登录 sudo vim /etc/ssh/sshd_config 将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes\n修改之前:\n修改之后:\n然后重启ssh服务: sudo /etc/init.d/ssh restart 3.3安装 vsftp 服务器 sudo apt-get install vsftpd sudo vim /etc/vsftpd.",
+  "description": "1 软件更新 使用 Software Updater 更新 软件更新器是一个图形化的工具, 用于管理系统中的软件更新.\n使用命令更新\nsudo apt update \u0026amp;\u0026amp; sudo apt upgrade 命令的作用是先更新软件包列表, 然后升级系统上已安装的软件包.\n2 安装中文输入法 https://www.bilibili.com/video/BV1tY411q7f1/\n3 允许root用户远程登录 3.1修改root用户密码 打开终端, 输入指令:\nsudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-server 常用命令 sudo /etc/init.d/ssh start sudo /etc/init.d/ssh restart 安装完毕后查看状态 sudo service ssh status 若出现: Active: active (running) , 表示安装成功, 服务已启动.\n允许root用户远程登录 sudo vim /etc/ssh/sshd_config 将 PermitRootLogin 的注释去掉, 然后将后面的参数值改为 yes\n修改之前:\n修改之后:\n",
   "keywords": [
     
   ],
