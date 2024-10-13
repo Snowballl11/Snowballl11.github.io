@@ -169,6 +169,25 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">记数学题
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>解三角形 解三角形例题I 已知条件 在三角形ABC中：
+内角A, B, C的对边分别为a, b, c $b^2 = ac$ D在边AC上 $BD \sin \angle ABC = a \sin C$ $AD = 2DC$ 求解步骤 利用已知条件，得到向量关系： $\overrightarrow{BD} = \frac{2}{3}\overrightarrow{BC} &#43; \frac{1}{3}\overrightarrow{BA}$
+整理得到方程： $6a^2 - 11ac &#43; 3c^2 = 0$
+因式分解： $(2a - 3c)(3a - c) = 0$
+解得： $a = \frac{3}{2}c$ 或 $a = \frac{1}{3}c$
+验证哪个解满足三角形边长关系：
+当 $a = \frac{3}{2}c$ 时： $b^2 = ac = \frac{3}{2}c^2$，即 $b = c\sqrt{\frac{3}{2}}$ 验证三角形不等式：$a &#43; b &gt; c$，$\frac{3}{2}c &#43; c\sqrt{\frac{3}{2}} &gt; c$ 成立 当 $a = \frac{1}{3}c$ 时： $b^2 = ac = \frac{1}{3}c^2$，即 $b = \frac{c}{\sqrt{3}}$ 验证三角形不等式：$a &#43; b = \frac{1}{3}c &#43; \frac{c}{\sqrt{3}} \approx 0.91c &lt; c$，不成立 确定正确的边长关系：$a = \frac{3}{2}c$，$b = c\sqrt{\frac{3}{2}}$
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-10-13 15:51:15 +0800 CST'>October 13, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Bks</footer>
+  <a class="entry-link" aria-label="post link to 记数学题" href="https://baikaishui.cloud/posts/%E8%AE%B0%E6%95%B0%E5%AD%A6%E9%A2%98/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">学习日记
     </h2>
   </header>
@@ -233,31 +252,12 @@ sudo passwd root 3.2安装SSH服务 安装ssh sudo apt-get install openssh-serve
   <footer class="entry-footer"><span title='2024-06-23 15:00:49 +0800 CST'>June 23, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Bks</footer>
   <a class="entry-link" aria-label="post link to Ubuntu" href="https://baikaishui.cloud/posts/ubuntu/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">杂谈:AI
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>根据是否模拟人类神经网络，人工智能可以分为两类：连接主义人工智能 和 符号人工智能。
-人工智能的智能问题 根据上面的分类。前者依靠模拟人类神网络而产生“智能”，后者的“智能”来自矩阵乘法(抽象地说)。目前主流的Transformer和CNNs都属于后者。
-(已删去关于两类智能对比，就像密码学认为加密的安全性来源于密钥的安全性而不是加密算法，再做细致的讨论似乎不太必要)
-人工智能的终点在哪 我们常用“强弱”来评价一个人工智能产品的水平如何，那人工智能能够无限的变“强”吗？我希望用AlphaGo和当下火热的ChatGPT来阐述我的观点。
-AlphaGo和ChatGPT是完全不同的两类AI，AlphaGo面向围棋的AI, 围棋的规则是固定的，你下的每一轮围棋都在相同且完备的规则下进行；ChatGPT是面向现实世界的AI，他追求的不是棋盘上博弈的胜利，而是要服务于物理法则都没有被完全探究明白的现实世界。
-这么说或许或许你仍然疑问这两者的本质区别在哪里，接下来我要引用毛泽东文章里的一段话，来解释这个问题：
-人的正确思想是从哪里来的？是从天上掉下来的吗？不是。是自己头脑里固有的吗？不是。人的正确思想，只能从社会实践中来，只能从社会的生产斗争、阶级斗争和科学实验这三项实践中来。
-对于这段话，我们完全可以去掉人的限制，而它依然成立：正确思想是从哪里来的？是从天上掉下来的吗？不是。是自己头脑里固有的吗？不是。正确思想，只能从社会实践中来。
-对于AlphaGo而言，它面相的对象是围棋，围棋有固定的规则，它不需要再对规则做探索，它的每次与人或非人的博弈，或学习优秀棋局数据的行为，对AlphaGo来讲都是一次实践，这也是AlphaGo为什么能在不再与人博弈之后，依然通过自我博弈不断提升。
-对于ChatGPT而言，它面向的对象是现实世界，但ChatGPT是大语言模型（LLM），他对世界的正确认识来源于它所学习的语言数据，这些语言数据之所以能携带正确的认知，归根究底来源于人类的社会实践活动，没有人类的社会实践活动，也就不可能有ChatGPT正确的认知。这也正解释了为什么有研究表明：用AI产生的语料来训练AI将使其退化并最终崩溃1,在AI使用自己产生的预料自我训练的时候，并没有经历社会实践的过程，其正确的认知（思想）并没有增加，但在这样的情况下仍然以自己产生的语料作为训练的素材，最终导致了其退化并最终崩溃。
-可以这样说，AlphaGo和ChatGPT的本质区别在于，AlphaGo能够通过自我博弈完成实践活动，而ChatGPT无法仅通过自身完成实践活动，它的全部正确思想来源于人类语料，而它无法从自身继续获取正确的思想，所以若想增强ChatGPT，则需要向其输入更多人类语料，而若想实现AlphaGo的增强，则完全不需依附于人类实践。
-受限篇幅，不展开讨论多模态、调用外部工具等优化人工智能的工具。
-https://venturebeat.com/ai/the-ai-feedback-loop-researchers-warn-of-model-collapse-as-ai-trains-on-ai-generated-content/ ↩︎
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-06-23 14:22:08 +0800 CST'>June 23, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Bks</footer>
-  <a class="entry-link" aria-label="post link to 杂谈:AI" href="https://baikaishui.cloud/posts/%E6%9D%82%E8%B0%88ai/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://baikaishui.cloud/page/2/">Next&nbsp;2/2&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

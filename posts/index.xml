@@ -12,8 +12,56 @@
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <copyright>Bks Corp 2024</copyright>
-    <lastBuildDate>Tue, 08 Oct 2024 05:26:55 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Oct 2024 15:51:15 +0800</lastBuildDate>
     <atom:link href="https://baikaishui.cloud/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记数学题</title>
+      <link>https://baikaishui.cloud/posts/%E8%AE%B0%E6%95%B0%E5%AD%A6%E9%A2%98/</link>
+      <pubDate>Sun, 13 Oct 2024 15:51:15 +0800</pubDate>
+      <guid>https://baikaishui.cloud/posts/%E8%AE%B0%E6%95%B0%E5%AD%A6%E9%A2%98/</guid>
+      <description>&lt;h1 id=&#34;解三角形&#34;&gt;解三角形&lt;/h1&gt;
+&lt;h2 id=&#34;解三角形例题i&#34;&gt;解三角形例题I&lt;/h2&gt;
+&lt;h3 id=&#34;已知条件&#34;&gt;已知条件&lt;/h3&gt;
+&lt;p&gt;在三角形ABC中：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;内角A, B, C的对边分别为a, b, c&lt;/li&gt;
+&lt;li&gt;$b^2 = ac$&lt;/li&gt;
+&lt;li&gt;D在边AC上&lt;/li&gt;
+&lt;li&gt;$BD \sin \angle ABC = a \sin C$&lt;/li&gt;
+&lt;li&gt;$AD = 2DC$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;求解步骤&#34;&gt;求解步骤&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;利用已知条件，得到向量关系：
+$\overrightarrow{BD} = \frac{2}{3}\overrightarrow{BC} + \frac{1}{3}\overrightarrow{BA}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整理得到方程：
+$6a^2 - 11ac + 3c^2 = 0$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;因式分解：
+$(2a - 3c)(3a - c) = 0$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解得：
+$a = \frac{3}{2}c$ 或 $a = \frac{1}{3}c$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;验证哪个解满足三角形边长关系：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;当 $a = \frac{3}{2}c$ 时：
+$b^2 = ac = \frac{3}{2}c^2$，即 $b = c\sqrt{\frac{3}{2}}$
+验证三角形不等式：$a + b &amp;gt; c$，$\frac{3}{2}c + c\sqrt{\frac{3}{2}} &amp;gt; c$ 成立&lt;/li&gt;
+&lt;li&gt;当 $a = \frac{1}{3}c$ 时：
+$b^2 = ac = \frac{1}{3}c^2$，即 $b = \frac{c}{\sqrt{3}}$
+验证三角形不等式：$a + b = \frac{1}{3}c + \frac{c}{\sqrt{3}} \approx 0.91c &amp;lt; c$，不成立&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;确定正确的边长关系：$a = \frac{3}{2}c$，$b = c\sqrt{\frac{3}{2}}$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>学习日记</title>
       <link>https://baikaishui.cloud/posts/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</link>
