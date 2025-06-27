@@ -1345,6 +1345,16 @@ button {
   max-width: 100%;
   margin: 0 auto;
 }
+mjx-container {
+  display: inline-grid;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+  min-width: auto !important;
+}
+mjx-container::-webkit-scrollbar {
+  display: none;
+}
 .post-link {
   position: absolute;
   top: 0;
