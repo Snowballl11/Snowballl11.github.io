@@ -1,0 +1,990 @@
+
+  <!DOCTYPE html>
+  <html lang="en"  
+    
+      data-theme-mode="auto"
+    
+  >
+  <head>
+  
+  <meta charset="utf-8">
+  
+
+  
+
+  
+
+  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_0khxww3tj3q9';window.REIMU_CONFIG.clipboard_tips = {"success":{"en":"Copy successfully (*^▽^*)","zh-CN":"复制成功 (*^▽^*)","zh-TW":"複製成功 (*^▽^*)","ja":"コピー成功 (*^▽^*)"},"fail":{"en":"Copy failed (ﾟ⊿ﾟ)ﾂ","zh-CN":"复制失败 (ﾟ⊿ﾟ)ﾂ","zh-TW":"複製失敗 (ﾟ⊿ﾟ)ﾂ","ja":"コピー失敗 (ﾟ⊿ﾟ)ﾂ"},"copyright":{"enable":false,"count":50,"license_type":"by-nc-sa"}};window.REIMU_CONFIG.clipboard_tips.copyright.content = 'All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!';window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'http://Snowballl11.github.io';</script>
+  
+  <title>
+    华中科技大学-2025第一次讲课：算法竞赛概述与指南 |
+    
+    Bks&#39;blog
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap" media="print" onload="this.media&#x3D;&#39;all&#39;">
+  
+  
+    <link rel="preload" href="//at.alicdn.com/t/c/font_4552607_0khxww3tj3q9.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+  
+    
+<link rel="stylesheet" href="/css/loader.css">
+
+  
+  
+    <meta name="description" content="什么是算法竞赛，能吃吗？ 主要的算法竞赛&#x2F;考试包括：  赛氪（7~8月） CSP&#x2F;CCSP（CSP一年多次，CCSP10月） 天梯赛（4月） 蓝桥杯（初赛4月，复赛6月） 百度之星（初赛暑假，复赛年底） ICPC&#x2F;CCPC（10~11月） ……   学这些有什么用？   参加比赛：上至 XCPC，下至睿抗，各种比赛都能充实你的履历， 锻炼你的意志，功利地说：保研加分。   应付面试：各种算法&#x2F;数">
+<meta property="og:type" content="article">
+<meta property="og:title" content="华中科技大学-2025第一次讲课：算法竞赛概述与指南">
+<meta property="og:url" content="http://snowballl11.github.io/2025/%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6-2025%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%B2%E8%AF%BE%EF%BC%9A%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%A6%82%E8%BF%B0%E4%B8%8E%E6%8C%87%E5%8D%97/index.html">
+<meta property="og:site_name" content="Bks&#39;blog">
+<meta property="og:description" content="什么是算法竞赛，能吃吗？ 主要的算法竞赛&#x2F;考试包括：  赛氪（7~8月） CSP&#x2F;CCSP（CSP一年多次，CCSP10月） 天梯赛（4月） 蓝桥杯（初赛4月，复赛6月） 百度之星（初赛暑假，复赛年底） ICPC&#x2F;CCPC（10~11月） ……   学这些有什么用？   参加比赛：上至 XCPC，下至睿抗，各种比赛都能充实你的履历， 锻炼你的意志，功利地说：保研加分。   应付面试：各种算法&#x2F;数">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-10-03T13:39:59.000Z">
+<meta property="article:modified_time" content="2025-10-03T13:40:15.632Z">
+<meta property="article:author" content="Roc Skyler Lee">
+<meta name="twitter:card" content="summary">
+  
+  
+    <link rel="alternate" href="/atom.xml" title="Bks'blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preload" as="style" onload="this.onload&#x3D;null;this.rel&#x3D;&#39;stylesheet&#39;" href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css" integrity="sha384-IfxC36XL&#x2F;toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei+Zx&#x2F;1oA&#x2F;0l8ysE" crossorigin="anonymous">
+  
+    
+  
+  
+  
+  
+    
+<script src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script>
+
+  
+  
+    
+<link rel="stylesheet" href="https://npm.webcache.cn/@reimujs/aos@0.1.0/dist/aos.css" integrity="sha384-4NN3fZ5AokFyHuoihl7A9qWaCt+HsAtOaUsXwJGRb4&#x2F;SMBtFr2vcNSHR5E8dg0Wk" crossorigin="anonymous">
+
+  
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+  <body>
+    
+    
+  <div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate">
+        
+          <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+           M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg>
+        
+      </div>
+      
+      
+        
+      
+      <div class="loading-word">Loading...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var startLoading = () => {
+      time = Date.now();
+      document.getElementById('loader').classList.remove("loading");
+    }
+    var endLoading = () => {
+      if (!time) {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loader').classList.add("loading");
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          document.body.style.overflow = 'auto';
+          document.getElementById('loader').classList.add("loading");
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    document.getElementById('loader').addEventListener('click', endLoading);
+  </script>
+
+<div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+</div>
+
+
+    <div id="container">
+      <div id="wrap">
+        <div id="header-nav">
+  <nav id="main-nav">
+    
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+             
+              &#xe62b;
+             
+          </div>
+          <a class="main-nav-link" href="/">Home</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+             
+              &#xe62b;
+             
+          </div>
+          <a class="main-nav-link" href="/archives">Archives</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+             
+              &#xe62b;
+             
+          </div>
+          <a class="main-nav-link" href="/about">About</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+             
+              &#xe62b;
+             
+          </div>
+          <a class="main-nav-link" href="/friend">Friend</a>
+        </span>
+      
+    
+    <a id="main-nav-toggle" class="nav-icon"></a>
+  </nav>
+  <nav id="sub-nav">
+    
+      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed" target="_blank"></a>
+    
+    
+    
+  </nav>
+  
+</div>
+<header id="header">
+  
+    
+      
+        <picture>
+          
+        </picture>
+        
+          <img  fetchpriority="high" src="/images/banner.webp" alt="华中科技大学-2025第一次讲课：算法竞赛概述与指南">
+        
+      
+    
+  
+  <div id="header-outer">
+    <div id="header-title">
+      
+        
+        
+          <a href="/" id="logo">
+            <h1 data-aos="slide-up">华中科技大学-2025第一次讲课：算法竞赛概述与指南</h1>
+          </a>
+        
+      
+      
+        
+        <h2 id="subtitle-wrap" data-aos="slide-down">
+          
+        </h2>
+      
+    </div>
+  </div>
+</header>
+
+        <div id="content"  class="sidebar-right" >
+          <aside id="sidebar">
+  
+  
+  
+  <div class="sidebar-wrapper wrap-sticky">
+    <div class="sidebar-wrap" data-aos="fade-up">
+      
+        
+          <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class" >
+      
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E8%83%BD%E5%90%83%E5%90%97"><span class="toc-number">1.</span> <span class="toc-text"> 什么是算法竞赛，能吃吗？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%A6%E8%BF%99%E4%BA%9B%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8"><span class="toc-number">2.</span> <span class="toc-text"> 学这些有什么用？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%83%B3%E5%A5%BD%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87"><span class="toc-number">3.</span> <span class="toc-text"> 想好你的目标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%83%B3%E5%A5%BD%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87-2"><span class="toc-number">4.</span> <span class="toc-text"> 想好你的目标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#icpcccpc-%E8%B5%9B%E4%BA%8B%E4%BB%8B%E7%BB%8D"><span class="toc-number">5.</span> <span class="toc-text"> ICPC&#x2F;CCPC 赛事介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97-icpcccpc-%E5%90%8D%E9%A2%9D"><span class="toc-number">6.</span> <span class="toc-text"> 如何获得 ICPC&#x2F;CCPC 名额</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%87%AA%E5%AD%A6%E5%88%B7%E9%A2%98%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90"><span class="toc-number"></span> <span class="toc-text"> 自学&#x2F;刷题网站推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9"><span class="toc-number">1.</span> <span class="toc-text"> 自学知识点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%B7%E9%A2%98%E7%BD%91%E7%AB%99%E7%82%B9%E5%8D%AF"><span class="toc-number">2.</span> <span class="toc-text"> 刷题网站点卯</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#cpp-%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D"><span class="toc-number"></span> <span class="toc-text"> CPP 语法基础介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#c-%E5%92%8C-cpp-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">1.</span> <span class="toc-text"> C 和 CPP 的区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B4%E6%8E%A5%E5%B1%95%E7%A4%BA%E4%B8%80%E4%B8%AA%E8%83%BD%E8%B7%91%E8%B5%B7%E6%9D%A5%E7%9A%84%E4%BB%A3%E7%A0%81"><span class="toc-number">2.</span> <span class="toc-text"> 直接展示一个能跑起来的代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E5%A4%9F%E7%94%A8-114514-%E6%AC%A1%E7%9A%84%E6%A1%86%E6%9E%B6"><span class="toc-number">3.</span> <span class="toc-text"> 一个够用 114514 次的框架</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B9%BF%E4%B9%89-io-%E6%80%BB%E7%BA%BF%E8%BE%93%E5%85%A5%E5%92%8C%E8%BE%93%E5%87%BA"><span class="toc-number">4.</span> <span class="toc-text"> 广义 I&#x2F;O 总线：输入和输出</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B"><span class="toc-number">5.</span> <span class="toc-text"> 变量类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%B0%E5%9C%A8%E6%80%BB%E8%AF%A5%E8%AE%A4%E8%AF%86%E5%8F%98%E9%87%8F%E4%BA%86"><span class="toc-number">6.</span> <span class="toc-text"> 现在总该认识变量了</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">7.</span> <span class="toc-text"> 变量的生命周期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E8%BF%90%E7%AE%97"><span class="toc-number">8.</span> <span class="toc-text"> 变量的运算</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F"><span class="toc-number">9.</span> <span class="toc-text"> 常量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AF%94%E8%BE%83%E5%92%8C%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">10.</span> <span class="toc-text"> 比较和逻辑运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6-%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="toc-number">11.</span> <span class="toc-text"> 二进制、位运算</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E8%AF%AD%E5%8F%A5"><span class="toc-number">12.</span> <span class="toc-text"> 分支语句</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%A0%E7%99%BE%E5%B9%B4%E7%94%A8%E4%B8%8D%E4%B8%8A%E4%BD%86%E6%98%AF%E7%94%A8%E4%B8%8A%E7%9A%84%E6%97%B6%E5%80%99%E4%BD%A0%E5%BE%88%E5%BA%86%E5%B9%B8%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8A%9F%E8%83%BD%E7%9A%84-switch"><span class="toc-number">13.</span> <span class="toc-text"> 几百年用不上但是用上的时候你很庆幸有这个功能的 switch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5"><span class="toc-number">14.</span> <span class="toc-text"> 循环语句</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%8D%E8%B0%88%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">15.</span> <span class="toc-text"> 再谈生命周期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-number">16.</span> <span class="toc-text"> 数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%93%E6%88%91%E4%BB%AC%E5%86%8D%E8%AF%B4%E8%BE%93%E5%87%BA%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E4%BB%AC%E5%9C%A8%E8%AF%B4%E4%BB%80%E4%B9%88"><span class="toc-number">17.</span> <span class="toc-text"> 当我们再说输出的时候我们在说什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A4%E8%AF%86%E9%AB%98%E7%BB%B4%E8%B5%8B%E8%8C%83%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4"><span class="toc-number">18.</span> <span class="toc-text"> 认识高维赋范线性空间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F-combo"><span class="toc-number">19.</span> <span class="toc-text"> 小 Combo</span></a></li></ol>
+      
+  </div>
+</div>
+</div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="Roc Skyler Lee" class="lazyload">
+  <div class="sidebar-author-name">Roc Skyler Lee</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>Post</div>
+    <div class="sidebar-state-number">6</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>Category</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>Tag</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+</div>
+<div class="sidebar-menu">
+  
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="Home"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">Home</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="Archives"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">Archives</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="About"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">About</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="Friend"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">Friend</div>
+      </div>
+    
+  
+</div>
+</div>
+        
+      
+      
+        
+          <div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div>
+        
+      
+    </div>
+  </div>
+
+  <div class="sidebar-widget">
+  
+  </div>
+  
+</aside>
+
+          <section id="main"><article id="post-华中科技大学-2025第一次讲课：算法竞赛概述与指南" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-inner" data-aos="fade-up">
+    <div class="article-meta">
+      <div class="article-date">
+  <span class="article-date-link" data-aos="zoom-in">
+    <time datetime="2025-10-03T13:39:59.000Z" itemprop="datePublished">2025-10-03</time>
+    <time style="display: none;" id="post-update-time">2025-10-03</time>
+  </span>
+</div>
+
+      
+
+    </div>
+    <div class="hr-line"></div>
+    
+
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+      
+        <h2 id="什么是算法竞赛能吃吗"><a class="markdownIt-Anchor" href="#什么是算法竞赛能吃吗"></a> 什么是算法竞赛，能吃吗？</h2>
+<p>主要的算法竞赛/考试包括：</p>
+<ul>
+<li>赛氪（7~8月）</li>
+<li>CSP/CCSP（CSP一年多次，CCSP10月）</li>
+<li>天梯赛（4月）</li>
+<li>蓝桥杯（初赛4月，复赛6月）</li>
+<li>百度之星（初赛暑假，复赛年底）</li>
+<li>ICPC/CCPC（10~11月）</li>
+<li>……</li>
+</ul>
+<h2 id="学这些有什么用"><a class="markdownIt-Anchor" href="#学这些有什么用"></a> 学这些有什么用？</h2>
+<ul>
+<li>
+<p>参加比赛：上至 XCPC，下至睿抗，各种比赛都能充实你的履历，<br />
+锻炼你的意志，功利地说：保研加分。</p>
+</li>
+<li>
+<p>应付面试：各种算法/数据结构，乃至算法题，都是面试官们最喜<br />
+欢的人股。熟练掌握算法在找工的时候会有一定的好处。</p>
+</li>
+<li>
+<p>解决实际问题：游戏是如何管理物体碰撞的？关系型数据库如何<br />
+快速有序地存储数据？生产生活中有许多问题要用到算法。</p>
+</li>
+<li>
+<p>心志的磨练：<s>此路乃修心之路，乃不断斩去心中邪魔，纯正意志，<br />
+无畏坎坷，矢志不渝，求得太一无瑕玲珑心之路！</s></p>
+</li>
+</ul>
+<h2 id="想好你的目标"><a class="markdownIt-Anchor" href="#想好你的目标"></a> 想好你的目标</h2>
+<ul>
+<li>刚进入大学，我想多了解一些团队</li>
+<li>如果你对算法竞赛感兴趣，可以接着听听我们后续的萌新入门课程，参与到一些简单的比赛（睿抗/蓝桥杯）</li>
+<li>CF rating：1200</li>
+<li>如果你的目标为睿抗省一/蓝桥省二等，那么萌新入门系列的课程就可以满足了，课上想要完全掌握可能有些压力，需要可以每周做大约5-10题</li>
+<li>每个人对于算法竞赛的接受能力差距较大，如果你发现花了很多时间都搞不懂，可以换个赛道（算法竞赛只是计算机很小很小很小的一部分）</li>
+</ul>
+<h2 id="想好你的目标-2"><a class="markdownIt-Anchor" href="#想好你的目标-2"></a> 想好你的目标</h2>
+<ul>
+<li>
+<p>我想学习一些算法竞赛的知识，参与竞赛丰富经历<br />
+群里我们也会对一些无门槛的算法竞赛进行宣传和通知（天梯赛/百度之星）</p>
+</li>
+<li>
+<p>CF rating：1600<br />
+如果你的目标为天梯赛个人一等奖/蓝桥杯国一/百度之星国二，那么你需要完全掌握萌新培训的内容，自学提高组以内的算法（洛谷绿题以内）；每周需要做10-15题，总题量约1000题</p>
+</li>
+<li>
+<p>如果你的目标是保研加分，那建议可以到此为止了（如果你有CF 1600分的水平，那么大概可以获得 CSP350+蓝桥杯国二+百度之星国二+天梯赛个人二等奖+睿抗国一，已经可以把保研加分凑满了）</p>
+</li>
+</ul>
+<h2 id="icpcccpc-赛事介绍"><a class="markdownIt-Anchor" href="#icpcccpc-赛事介绍"></a> ICPC/CCPC 赛事介绍</h2>
+<ul>
+<li>与其他大多数算法竞赛不同，XCPC 采用三人一队的形式参加，但是只有一台电脑可供解题</li>
+<li>今年 ICPC 共有 7 个赛站，华科预计有 21 队次参加；CCPC 有四个赛站，预计有 9 个队次参加。</li>
+<li>共计 5 小时，一般有 12~13 题</li>
+<li>每道题只有通过与不通过之分，成绩先按照通过数排序，再按照罚时排序</li>
+<li>罚时为每道最终通过的题的（通过时间 + 尝试次数 * 20）之和</li>
+</ul>
+<h2 id="如何获得-icpcccpc-名额"><a class="markdownIt-Anchor" href="#如何获得-icpcccpc-名额"></a> 如何获得 ICPC/CCPC 名额</h2>
+<ul>
+<li>对于新生，可以参加10月举办的新生名额选拔赛，比赛将会分配一个 CCPC 和一个 ICPC 名额，<br />
+欢迎大家留意后续通知</li>
+<li>对于高年级同学，需要在暑假参加牛客多校/杭电多校和9月的网络预选赛，绝大多数的名额将会按照以上比赛的成绩进行分配（CF：1900+）</li>
+<li>如果你现在是零基础同学，除非你对算法竞赛有极大的热情并且愿意付出至少每周10小时的时间，否则根据经验很难得到名额</li>
+</ul>
+<h1 id="自学刷题网站推荐"><a class="markdownIt-Anchor" href="#自学刷题网站推荐"></a> 自学/刷题网站推荐</h1>
+<h2 id="自学知识点"><a class="markdownIt-Anchor" href="#自学知识点"></a> 自学知识点</h2>
+<ul>
+<li>Oi-wiki: <a target="_blank" rel="noopener" href="https://oi-wiki.org/">https://oi-wiki.org/</a> 包含了几乎所有常见知识点。非常好用。</li>
+<li>各大博客: 比如 <a target="_blank" rel="noopener" href="http://hzwer.com/">http://hzwer.com/</a> 或者 <s>smokeydays.top</s>；亦或者博客园/CSDN</li>
+<li>洛谷题单: 也在 <a target="_blank" rel="noopener" href="http://luogu.com.cn">luogu.com.cn</a></li>
+<li>CPP 语法大师手册: <a target="_blank" rel="noopener" href="https://zh.cppreference.com/w/">https://zh.cppreference.com/w/</a></li>
+</ul>
+<h2 id="刷题网站点卯"><a class="markdownIt-Anchor" href="#刷题网站点卯"></a> 刷题网站点卯</h2>
+<ul>
+<li>
+<p>洛谷：<a target="_blank" rel="noopener" href="http://Luogu.com.cn">Luogu.com.cn</a></p>
+</li>
+<li>
+<p>CF：<a target="_blank" rel="noopener" href="http://codeforces.com">codeforces.com</a></p>
+</li>
+<li>
+<p>力扣：<a target="_blank" rel="noopener" href="http://Leetcode.cn">Leetcode.cn</a></p>
+</li>
+<li>
+<p>AtC：<a target="_blank" rel="noopener" href="http://atcoder.jp">atcoder.jp</a></p>
+</li>
+<li>
+<p>壹佰种愿望一次达成 —— Vjudge: <a target="_blank" rel="noopener" href="https://vjudge.net/">https://vjudge.net/</a></p>
+</li>
+</ul>
+<h1 id="cpp-语法基础介绍"><a class="markdownIt-Anchor" href="#cpp-语法基础介绍"></a> CPP 语法基础介绍</h1>
+<h2 id="c-和-cpp-的区别"><a class="markdownIt-Anchor" href="#c-和-cpp-的区别"></a> C 和 CPP 的区别</h2>
+<ul>
+<li>CPP（C++，C Plus Pluse）是 C 的超究极威力无敌加强版。</li>
+<li>CPP 完美兼容 C。</li>
+<li>算竞基本上使用的是 CPP，虽然最常用的是 C 里面就有的一些特性。</li>
+</ul>
+<h2 id="直接展示一个能跑起来的代码"><a class="markdownIt-Anchor" href="#直接展示一个能跑起来的代码"></a> 直接展示一个能跑起来的代码</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span>   <span class="comment">// 引用头文件</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;  <span class="comment">// 引入 stl 命名空间</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;          <span class="comment">// 定义 main 函数</span></span><br><span class="line">    <span class="type">int</span> a, b;         <span class="comment">// 定义两个变量 a 和 b</span></span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;    <span class="comment">// 输入 a 和 b</span></span><br><span class="line">    cout &lt;&lt; a + b &lt;&lt; endl;  <span class="comment">// 输出 a + b</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;         <span class="comment">// 返回 0，结束 main 函数</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="一个够用-114514-次的框架"><a class="markdownIt-Anchor" href="#一个够用-114514-次的框架"></a> 一个够用 114514 次的框架</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span>   <span class="comment">// 万能库（gcc编译器）</span></span></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">  万能库可能会显著降低编译速度，当然这不会有很大影响</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 你的真正代码啦！</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 如果是非 gcc 编译器</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Hello, World.&quot;</span> &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="广义-io-总线输入和输出"><a class="markdownIt-Anchor" href="#广义-io-总线输入和输出"></a> 广义 I/O 总线：输入和输出</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> foo, bar;</span><br><span class="line">    cin &gt;&gt; foo &gt;&gt; bar;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Variable: &quot;</span> &lt;&lt; foo &lt;&lt; <span class="string">&quot; and &quot;</span> &lt;&lt; bar &lt;&lt; endl</span><br><span class="line">         &lt;&lt; <span class="string">&quot;Expression: &quot;</span> &lt;&lt; foo + bar &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>• cin/cout 是最方便的 IO 工具。<br />
+• cin 后方接上 &gt;&gt; ，后方跟上你希望读入的变量。<br />
+• cout 后方 &lt;&lt; ，然后接上你希望输出的内容。</p>
+<h2 id="变量类型"><a class="markdownIt-Anchor" href="#变量类型"></a> 变量类型</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a1;          <span class="comment">// 这是整数 integer</span></span><br><span class="line"><span class="type">long</span> <span class="type">long</span> <span class="type">int</span> a2;<span class="comment">// 这是范围更大一点的整数</span></span><br><span class="line"><span class="type">float</span> b1;        <span class="comment">// 这是浮点数，也就是小数</span></span><br><span class="line"><span class="type">double</span> b2;       <span class="comment">// 这是范围更大一点的小数</span></span><br><span class="line"><span class="type">char</span> ch;         <span class="comment">// 这是字符，也就是单个符号</span></span><br><span class="line"><span class="type">bool</span> b0;         <span class="comment">// 这是布尔值，也就是零和一，只得 true 和 false</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">f</span><span class="params">()</span></span>;        <span class="comment">// 无类型。原则上它不能作为变量类型，但它可以作为函数返回值类型</span></span><br><span class="line"><span class="comment">// 由于某些显然的原因，C/CPP 的基本类型不能包含无穷数值，也不含无限循环小数。</span></span><br></pre></td></tr></table></figure>
+<h2 id="现在总该认识变量了"><a class="markdownIt-Anchor" href="#现在总该认识变量了"></a> 现在总该认识变量了</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span>   <span class="comment">// 引用头文件</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;  <span class="comment">// 引入 stl 命名空间</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;          <span class="comment">// 定义 main 函数</span></span><br><span class="line">    <span class="type">int</span> a, b;         <span class="comment">// 定义两个变量 a 和 b</span></span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;    <span class="comment">// 输入 a 和 b</span></span><br><span class="line">    cout &lt;&lt; a + b &lt;&lt; endl;  <span class="comment">// 输出 a + b</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;         <span class="comment">// 返回 0，结束 main 函数</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="变量的生命周期"><a class="markdownIt-Anchor" href="#变量的生命周期"></a> 变量的生命周期</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a = <span class="number">19260817</span>;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>一个变量的声明包含类型说明符、变量名和初始值。</li>
+<li>一个局部变量的作用域是从定义点开始到它所在的代码块结束。</li>
+<li>在一个变量的作用域内，它可以被<strong>访问</strong>和<strong>修改</strong>。</li>
+<li>CPP 中，等号的意义是<strong>赋值</strong>，双等号的意义才是<strong>判等</strong>。</li>
+<li>当变量所在的作用域结束时，变量会被<strong>销毁</strong>。</li>
+</ul>
+<h2 id="变量的运算"><a class="markdownIt-Anchor" href="#变量的运算"></a> 变量的运算</h2>
+<p>算数运算符</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">long</span> <span class="type">long</span> a3 = a1 + a2 - (<span class="type">int</span>)b1;</span><br><span class="line"><span class="type">double</span> b3 = b1 * b2 / (<span class="type">double</span>)a1;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> p = <span class="number">998244353</span>;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> a4 = a1 * a2 % p;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+<h2 id="常量"><a class="markdownIt-Anchor" href="#常量"></a> 常量</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">const</span> type name = val;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>当以变量的方式声明的时候前方加上 const 就变成了常量。</li>
+<li>常量必须有初始值；常量不能被更改。</li>
+<li>可以防止很多傻逼错误。</li>
+</ul>
+<h2 id="比较和逻辑运算符"><a class="markdownIt-Anchor" href="#比较和逻辑运算符"></a> 比较和逻辑运算符</h2>
+<p>比较运算符：</p>
+<ul>
+<li><code>&gt;</code> 大于</li>
+<li><code>&gt;=</code> 大于等于</li>
+<li><code>&lt;</code> 小于</li>
+<li><code>&lt;=</code> 小于等于</li>
+<li><code>==</code> 等于</li>
+<li><code>!=</code> 不等于</li>
+</ul>
+<p>逻辑运算符：</p>
+<ul>
+<li><code>&amp;&amp;</code> 逻辑与</li>
+<li><code>||</code> 逻辑或</li>
+<li><code>!</code>  逻辑非</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Result = op1 &amp;&amp; op2;  <span class="comment">// 当 op1 与 op2 都为真时，Result 为真</span></span><br><span class="line"></span><br><span class="line">Result = op1 || op2;  <span class="comment">// 当 op1 或 op2 其中一个为真时，Result 为真</span></span><br><span class="line"></span><br><span class="line">Result = !op1;  <span class="comment">// 当 op1 为假时，Result 为真</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">bool</span> bo2 = (<span class="number">5</span> &lt;= a &amp;&amp; a &lt;= <span class="number">10</span>);</span><br></pre></td></tr></table></figure>
+<h2 id="二进制-位运算"><a class="markdownIt-Anchor" href="#二进制-位运算"></a> 二进制、位运算</h2>
+<ul>
+<li>整型的二进制表示：<br />
+6 -&gt; 110, 11 -&gt; 1011</li>
+<li>按位</li>
+<li>按位与：1&amp;0=0, 1&amp;1=1, 0&amp;0=0</li>
+<li>按位或：1|0=1, 1|1=1, 0|0=0</li>
+<li>按位异或：1^1=0, 0^0=0, 1^0=1</li>
+<li>按位异或可看作不进退位的加减法。</li>
+</ul>
+<p>常见位运算符：</p>
+<ul>
+<li><code>~</code>  按位非</li>
+<li><code>&amp;</code>  按位与</li>
+<li><code>|</code>  按位或</li>
+<li><code>^</code>  按位异或</li>
+<li><code>&lt;&lt;</code> 按位左移</li>
+<li><code>&gt;&gt;</code> 按位右移</li>
+</ul>
+<h2 id="分支语句"><a class="markdownIt-Anchor" href="#分支语句"></a> 分支语句</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> a, b, c;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">    <span class="keyword">if</span> (a &lt;= b) &#123;</span><br><span class="line">        <span class="comment">// do sth;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a &lt;= c) &#123;</span><br><span class="line">        <span class="comment">// do sth;</span></span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="comment">// do some other things.</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a &lt;= c) &#123;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (c &gt; b) &#123;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (b &lt;= <span class="number">3</span>) &#123;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>示例：12岁以下免费，12-18半价，18以上全价。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="type">int</span> a; <span class="comment">//年龄</span></span><br><span class="line">	<span class="type">double</span> b; <span class="comment">// 票价</span></span><br><span class="line">	cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">	<span class="keyword">if</span> (a &lt; <span class="number">12</span>) &#123;</span><br><span class="line">		cout &lt;&lt; <span class="number">0</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (<span class="number">12</span> &lt;= a &amp;&amp; a &lt;= <span class="number">18</span>) &#123;</span><br><span class="line">		cout &lt;&lt; b / <span class="number">2</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span> &#123;</span><br><span class="line">		cout &lt;&lt; b &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Hello, World.&quot;</span> &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="几百年用不上但是用上的时候你很庆幸有这个功能的-switch"><a class="markdownIt-Anchor" href="#几百年用不上但是用上的时候你很庆幸有这个功能的-switch"></a> 几百年用不上但是用上的时候你很庆幸有这个功能的 switch</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span> i = <span class="string">&#x27;B&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">switch</span> (i) &#123;</span><br><span class="line">    <span class="keyword">case</span> <span class="string">&#x27;A&#x27;</span>:</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;OI&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">case</span> <span class="string">&#x27;B&#x27;</span>:</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;WIKI&quot;</span> &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Hello World&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>（代码来自 OI-WIKI）</p>
+<p>从匹配的的 case 开始往下执行，如本题输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">WIKI</span><br><span class="line">Hello World</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>如果 <code>i = 'A'</code>输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">OI</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>如果<code>i = 'C'</code>输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Hello World</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>更改代码：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span> i = <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">switch</span> (i) &#123;</span><br><span class="line">    <span class="keyword">case</span> <span class="string">&#x27;A&#x27;</span>:</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;OI&quot;</span> &lt;&lt; endl;</span><br><span class="line">        <span class="comment">//break;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">case</span> <span class="string">&#x27;B&#x27;</span>:</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;WIKI&quot;</span> &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Hello World&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>输出为：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">OI</span><br><span class="line">WIKI</span><br><span class="line">Hello World</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>原代码使用 if 等价写法：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">char</span> i = <span class="string">&#x27;B&#x27;</span>;</span><br><span class="line">    <span class="keyword">if</span> (i == <span class="string">&#x27;A&#x27;</span>) &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;OI&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (i == <span class="string">&#x27;B&#x27;</span>) &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;WIKI&quot;</span> &lt;&lt; endl;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;HELLO WORLD&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;HELLO WORLD&quot;</span> &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="循环语句"><a class="markdownIt-Anchor" href="#循环语句"></a> 循环语句</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(!梁非凡听到()) &#123;</span><br><span class="line">	大声讲();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>for 循环：while的语法糖</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (expA; expB; expC) &#123;</span><br><span class="line">    <span class="comment">// do sth;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">expA;</span><br><span class="line"><span class="keyword">while</span> (expB) &#123;</span><br><span class="line">    <span class="comment">// do sth;</span></span><br><span class="line">    expC;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> a = <span class="number">1</span>; a &lt;= <span class="number">100</span>; a++) &#123;</span><br><span class="line">		cout &lt;&lt; a &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>等价于</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="type">int</span> a = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span> (;a &lt;= <span class="number">100</span>;) &#123;</span><br><span class="line">		cout &lt;&lt; a &lt;&lt; endl;</span><br><span class="line">		a = a + <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>还等价于</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="type">int</span> a = <span class="number">1</span>;</span><br><span class="line">	<span class="comment">//for (;a &lt;= 100;) &#123;</span></span><br><span class="line">    <span class="keyword">while</span> (a &lt;= <span class="number">100</span>) &#123; <span class="comment">//while 的语法糖</span></span><br><span class="line">		cout &lt;&lt; a &lt;&lt; endl;</span><br><span class="line">		a = a + <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="再谈生命周期"><a class="markdownIt-Anchor" href="#再谈生命周期"></a> 再谈生命周期</h2>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> n, sum = <span class="number">0</span>;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (; n &gt; <span class="number">0</span>; n = n - <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="type">int</span> x;</span><br><span class="line">        cin &gt;&gt; x;</span><br><span class="line">        sum = sum + x;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>输入输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">5</span><br><span class="line">1 2 3 4 5</span><br><span class="line">15</span><br></pre></td></tr></table></figure>
+<p>这里 for 循环中的 x 生命周期在循环的大括号中，每次循环结束就会被销毁；而 sum 的生命周期是整个 main 函数，如果更改 sum 的生命周期：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (; n &gt; <span class="number">0</span>; n = n - <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="type">int</span> x;</span><br><span class="line">        <span class="type">int</span> sum = <span class="number">0</span>;</span><br><span class="line">        cin &gt;&gt; x;</span><br><span class="line">        sum = sum + x;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; sum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>编译就会报错，因为最后输出时 sum 变量已经被销毁。</p>
+<h2 id="数组"><a class="markdownIt-Anchor" href="#数组"></a> 数组</h2>
+<ul>
+<li>数组是存放相同类型对象的容器，下列方法声明了一个数组：</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">type name[number];</span><br></pre></td></tr></table></figure>
+<ul>
+<li>
+<p>其中 number 必须是<strong>整型常量表达式</strong>。</p>
+</li>
+<li>
+<p>数组大小不能更改。</p>
+</li>
+<li>
+<p>访问数组：</p>
+</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a[<span class="number">3</span>]; <span class="comment">// 访问数组 a 的第四个元素</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>数组下标从 0 开始计数！注意边界条件！</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> arr[<span class="number">4</span>];</span><br><span class="line">cout &lt;&lt; arr[<span class="number">4</span>] &lt;&lt; endl;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>上面这段代码是 UB（Undefined Behavior），因为数组越界。</li>
+<li>大小为 size 的数组的合法下标是 [0, size) 或称 [0, size-1]。</li>
+</ul>
+<h2 id="当我们再说输出的时候我们在说什么"><a class="markdownIt-Anchor" href="#当我们再说输出的时候我们在说什么"></a> 当我们再说输出的时候我们在说什么</h2>
+<ul>
+<li>字符串是一串由特定符号集里的符号组成的——也就是文本本身。</li>
+<li>常见数组应用：存储字符串</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span> name[<span class="number">12</span>] = <span class="string">&quot;Smokey_Days&quot;</span>;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>还可以编辑：</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">char</span> name[<span class="number">100</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cin &gt;&gt; name;</span><br><span class="line">    name[<span class="number">0</span>] = <span class="string">&#x27;T&#x27;</span>;</span><br><span class="line">    cout &lt;&lt; name;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>输入输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Smokey_Days</span><br><span class="line">Tmokey_Days</span><br></pre></td></tr></table></figure>
+<h2 id="认识高维赋范线性空间"><a class="markdownIt-Anchor" href="#认识高维赋范线性空间"></a> 认识高维赋范线性空间</h2>
+<ul>
+<li>多维数组的实质是数组的数组，也就是说，外层数组的元素是另一个数组。</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> arr2[<span class="number">5</span>][<span class="number">4</span>];</span><br></pre></td></tr></table></figure>
+<ul>
+<li>可以用来存储一个多维的矩阵。</li>
+</ul>
+<h2 id="小-combo"><a class="markdownIt-Anchor" href="#小-combo"></a> 小 Combo</h2>
+<ul>
+<li>二维数组的遍历：</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> a[<span class="number">5</span>][<span class="number">4</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; ++i) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; <span class="number">4</span>; ++j) &#123;</span><br><span class="line">        <span class="comment">// do sth.</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>一种 CPP 地访问数组元素的方法：</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> a[<span class="number">5</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">auto</span> item : a) &#123;</span><br><span class="line">        item = <span class="number">3</span>;</span><br><span class="line">        cout &lt;&lt; item &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>运行结果（？）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">3</span><br><span class="line">3</span><br><span class="line">3</span><br><span class="line">3</span><br><span class="line">3</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+    </footer>
+  </div>
+  
+  <nav id="article-nav" data-aos="fade-up">
+    
+    
+    
+    <div class="article-nav-link-wrap article-nav-link-right">
+      
+        
+        
+          <img data-src="/images/banner.webp" data-sizes="auto" alt="分享一道比大小题目" class="lazyload">
+        
+      
+      <a href="/2025/%E5%88%86%E4%BA%AB%E4%B8%80%E9%81%93%E6%AF%94%E5%A4%A7%E5%B0%8F%E9%A2%98%E7%9B%AE/"></a>
+      <div class="article-nav-caption">Older</div>
+      <h3 class="article-nav-title">
+        
+          分享一道比大小题目
+        
+      </h3>
+    </div>
+    
+  </nav>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+</section>
+        </div>
+        <footer id="footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info">
+    
+    <div>
+      <span class="icon-copyright"></span>
+      
+      
+      
+        2020-2025
+      
+      <span class="footer-info-sep rotate"></span>
+      Roc Skyler Lee
+    </div>
+    
+      <div>
+        Powered by&nbsp;<a href="https://hexo.io/" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a>&nbsp;
+        Theme.<a href="https://github.com/D-Sketon/hexo-theme-reimu" rel="noopener external nofollow noreferrer" target="_blank">Reimu</a>
+      </div>
+    
+    
+      <div>
+        <span class="icon-brush"></span>
+        4.3k
+        &nbsp;|&nbsp;
+        <span class="icon-coffee"></span>
+        00:19
+      </div>
+    
+    
+    
+    
+      <div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv">Number of visits&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv">Number of visitors&nbsp;<span id="busuanzi_value_site_uv"></span></span>
+      </div>
+    
+  </div>
+</footer>
+
+        
+          <div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div>
+        
+        <div id="mask" class="hide"></div>
+      </div>
+      <nav id="mobile-nav">
+  <div class="sidebar-wrap">
+    
+      
+        <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class" >
+      
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E8%83%BD%E5%90%83%E5%90%97"><span class="toc-number">1.</span> <span class="toc-text"> 什么是算法竞赛，能吃吗？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%A6%E8%BF%99%E4%BA%9B%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8"><span class="toc-number">2.</span> <span class="toc-text"> 学这些有什么用？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%83%B3%E5%A5%BD%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87"><span class="toc-number">3.</span> <span class="toc-text"> 想好你的目标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%83%B3%E5%A5%BD%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87-2"><span class="toc-number">4.</span> <span class="toc-text"> 想好你的目标</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#icpcccpc-%E8%B5%9B%E4%BA%8B%E4%BB%8B%E7%BB%8D"><span class="toc-number">5.</span> <span class="toc-text"> ICPC&#x2F;CCPC 赛事介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97-icpcccpc-%E5%90%8D%E9%A2%9D"><span class="toc-number">6.</span> <span class="toc-text"> 如何获得 ICPC&#x2F;CCPC 名额</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%87%AA%E5%AD%A6%E5%88%B7%E9%A2%98%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90"><span class="toc-number"></span> <span class="toc-text"> 自学&#x2F;刷题网站推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%AD%A6%E7%9F%A5%E8%AF%86%E7%82%B9"><span class="toc-number">1.</span> <span class="toc-text"> 自学知识点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%B7%E9%A2%98%E7%BD%91%E7%AB%99%E7%82%B9%E5%8D%AF"><span class="toc-number">2.</span> <span class="toc-text"> 刷题网站点卯</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#cpp-%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D"><span class="toc-number"></span> <span class="toc-text"> CPP 语法基础介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#c-%E5%92%8C-cpp-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">1.</span> <span class="toc-text"> C 和 CPP 的区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B4%E6%8E%A5%E5%B1%95%E7%A4%BA%E4%B8%80%E4%B8%AA%E8%83%BD%E8%B7%91%E8%B5%B7%E6%9D%A5%E7%9A%84%E4%BB%A3%E7%A0%81"><span class="toc-number">2.</span> <span class="toc-text"> 直接展示一个能跑起来的代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E5%A4%9F%E7%94%A8-114514-%E6%AC%A1%E7%9A%84%E6%A1%86%E6%9E%B6"><span class="toc-number">3.</span> <span class="toc-text"> 一个够用 114514 次的框架</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B9%BF%E4%B9%89-io-%E6%80%BB%E7%BA%BF%E8%BE%93%E5%85%A5%E5%92%8C%E8%BE%93%E5%87%BA"><span class="toc-number">4.</span> <span class="toc-text"> 广义 I&#x2F;O 总线：输入和输出</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B"><span class="toc-number">5.</span> <span class="toc-text"> 变量类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%B0%E5%9C%A8%E6%80%BB%E8%AF%A5%E8%AE%A4%E8%AF%86%E5%8F%98%E9%87%8F%E4%BA%86"><span class="toc-number">6.</span> <span class="toc-text"> 现在总该认识变量了</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">7.</span> <span class="toc-text"> 变量的生命周期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E7%9A%84%E8%BF%90%E7%AE%97"><span class="toc-number">8.</span> <span class="toc-text"> 变量的运算</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E9%87%8F"><span class="toc-number">9.</span> <span class="toc-text"> 常量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AF%94%E8%BE%83%E5%92%8C%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">10.</span> <span class="toc-text"> 比较和逻辑运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6-%E4%BD%8D%E8%BF%90%E7%AE%97"><span class="toc-number">11.</span> <span class="toc-text"> 二进制、位运算</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E6%94%AF%E8%AF%AD%E5%8F%A5"><span class="toc-number">12.</span> <span class="toc-text"> 分支语句</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%A0%E7%99%BE%E5%B9%B4%E7%94%A8%E4%B8%8D%E4%B8%8A%E4%BD%86%E6%98%AF%E7%94%A8%E4%B8%8A%E7%9A%84%E6%97%B6%E5%80%99%E4%BD%A0%E5%BE%88%E5%BA%86%E5%B9%B8%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8A%9F%E8%83%BD%E7%9A%84-switch"><span class="toc-number">13.</span> <span class="toc-text"> 几百年用不上但是用上的时候你很庆幸有这个功能的 switch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5"><span class="toc-number">14.</span> <span class="toc-text"> 循环语句</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%8D%E8%B0%88%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">15.</span> <span class="toc-text"> 再谈生命周期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-number">16.</span> <span class="toc-text"> 数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%93%E6%88%91%E4%BB%AC%E5%86%8D%E8%AF%B4%E8%BE%93%E5%87%BA%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E4%BB%AC%E5%9C%A8%E8%AF%B4%E4%BB%80%E4%B9%88"><span class="toc-number">17.</span> <span class="toc-text"> 当我们再说输出的时候我们在说什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A4%E8%AF%86%E9%AB%98%E7%BB%B4%E8%B5%8B%E8%8C%83%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4"><span class="toc-number">18.</span> <span class="toc-text"> 认识高维赋范线性空间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F-combo"><span class="toc-number">19.</span> <span class="toc-text"> 小 Combo</span></a></li></ol>
+      
+  </div>
+</div>
+</div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="Roc Skyler Lee" class="lazyload">
+  <div class="sidebar-author-name">Roc Skyler Lee</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>Post</div>
+    <div class="sidebar-state-number">6</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>Category</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>Tag</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+</div>
+<div class="sidebar-menu">
+  
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="Home"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">Home</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="Archives"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">Archives</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="About"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">About</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="Friend"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">Friend</div>
+      </div>
+    
+  
+</div>
+</div>
+      
+    
+  </div>
+  
+    
+      <div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div>
+    
+  
+</nav>
+
+    </div>
+    
+    
+    
+    
+<script src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js" integrity="sha384-3gT&#x2F;vsepWkfz&#x2F;ff7PpWNUeMzeWoH3cDhm&#x2F;A8jM7ouoAK0&#x2F;fP&#x2F;9bcHHR5kHq2nf+e" crossorigin="anonymous"></script>
+
+
+<script src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha384-J08i8An&#x2F;QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script>
+
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+  
+<script src="/js/aos.js"></script>
+
+  <script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', aosInit);
+    } else {
+      aosInit();
+    }
+  </script>
+
+
+
+<script src="/js/pjax_script.js" data-pjax></script>
+
+
+
+
+
+
+
+  
+<script src="https://npm.webcache.cn/mouse-firework@0.1.1/dist/index.umd.js" integrity="sha384-8LyaidD9GPxQQgLJO&#x2F;WRw&#x2F;O2h3BoNq&#x2F;ApI&#x2F;ecpvM6RsrCz2qP2ppBXUKihP4V&#x2F;2d" crossorigin="anonymous"></script>
+
+  <script>
+    window.firework && window.firework(JSON.parse('{"excludeElements":["a","button"],"particles":[{"shape":"circle","move":["emit"],"easing":"easeOutExpo","colors":["var(--red-1)","var(--red-2)","var(--red-3)","var(--red-4)"],"number":20,"duration":[1200,1800],"shapeOptions":{"radius":[16,32],"alpha":[0.3,0.5]}},{"shape":"circle","move":["diffuse"],"easing":"easeOutExpo","colors":["var(--red-0)"],"number":1,"duration":[1200,1800],"shapeOptions":{"radius":20,"alpha":[0.2,0.5],"lineWidth":6}}]}'))
+  </script>
+
+
+
+
+
+
+
+
+
+
+<div id="lazy-script">
+  <div>
+    
+      
+      
+      <script data-pjax>
+        window.REIMU_POST = {
+          author: "Roc Skyler Lee",
+          title: "华中科技大学-2025第一次讲课：算法竞赛概述与指南",
+          url: "http://snowballl11.github.io/2025/%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6-2025%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%B2%E8%AF%BE%EF%BC%9A%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%A6%82%E8%BF%B0%E4%B8%8E%E6%8C%87%E5%8D%97/",
+          excerpt: "",
+          description: "",
+          stripContent: " 什么是算法竞赛，能吃吗？ 主要的算法竞赛/考试包括：  赛氪（7~8月） CSP/CCSP（CSP一年多次，CCSP10月） 天梯赛（4月） 蓝桥杯（初赛4月，复赛6月） 百度之星（初赛暑假，复赛年底） ICPC/CCPC（10~11月） ……   学这些有什么用？   参加比赛：上至 XCPC，下至睿抗，各种比赛都能充实你的履历， 锻炼你的意志，功利地说：保研加分。   应付面试：各种算法/数据结构，乃至算法题，都是面试官们最喜 欢的人股。熟练掌握算法在找工的时候会有一定的好处。   解决实",
+          date: "Fri Oct 03 2025 21:39:59 GMT+0800",
+          updated: "Fri Oct 03 2025 21:40:15 GMT+0800",
+          cover: "/images/banner.webp",
+        };
+      </script>
+       
+    
+    
+      
+        
+<script src="/js/insert_highlight.js" data-pjax></script>
+
+        
+      
+    
+    
+      <script type="module" data-pjax>
+        const PhotoSwipeLightbox = (await safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe-lightbox.esm.min.js", "sha384-DiL6M/gG+wmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF/N6lrZi/")).default;
+        
+        const pswp = () => {
+          if (_$$('.article-entry a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-entry',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8+oTJ7m3DfYEWX1fu1scuS4+s")
+            }).init();
+          }
+          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-gallery',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8+oTJ7m3DfYEWX1fu1scuS4+s")
+            }).init();
+          }
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script>
+      
+        
+
+
+
+
+
+
+
+
+      
+    
+  </div>
+</div>
+
+
+  <script>
+    console.log(String.raw`%c 
+ ______     ______     __     __    __     __  __    
+/\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+\ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+ \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+  \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                  
+`,'color: #ff5252;')
+    console.log('%c Theme.Reimu v' + '1.8.5' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
+  </script>
+  
+
+
+
+  
+<script src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js" integrity="sha384-0M75wtSkhjIInv4coYlaJU83+OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id+S" crossorigin="anonymous" async></script>
+
+
+
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (let registration of registrations) {
+        registration.unregister();
+      }
+    });
+  }
+</script>
+
+
+
+  
+    
+<script src="https://npm.webcache.cn/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6&#x2F;1Nxveei" crossorigin="anonymous" defer data-pjax></script>
+
+    <script data-pjax>
+      window.MathJax = {"tex":{"tags":"ams","useLabelIds":true,"inlineMath":[["$","$"],["\\\\(","\\\\)"]],"displayMath":[["$$","$$"],["\\\\[","\\\\]"]],"processEscapes":true,"processEnvironments":true,"autoload":{"color":[],"colorv2":["color"]},"packages":{"[+]":["noerrors"]}},"options":{"skipHtmlTags":["script","noscript","style","textarea","pre","code"],"ignoreHtmlClass":"tex2jax_ignore","processHtmlClass":"tex2jax_process"},"loader":{"load":["input/asciimath","[tex]/noerrors"]}};
+    </script>
+  
+
+
+
+
+
+
+
+    
+  </body>
+  </html>
+
